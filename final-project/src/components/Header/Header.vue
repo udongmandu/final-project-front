@@ -26,7 +26,7 @@
       <!--begin::Mobile logo-->
       <div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
         <a href="index.html" class="d-lg-none">
-          <img alt="Logo" src="../../public/assets/media/logos/default-small.svg" class="h-30px" />
+          <img alt="Logo" src="../../../public/assets/media/logos/default-small.svg" class="h-30px" />
         </a>
       </div>
       <!--end::Mobile logo-->
@@ -790,7 +790,11 @@
                         <!--end:Col-->
                         <!--begin:Col-->
                         <div class="col-lg-4">
-                          <img src="../../public/assets/media/stock/600x600/img-82.jpg" class="rounded mw-100" alt="" />
+                          <img
+                            src="../../../public/assets/media/stock/600x600/img-82.jpg"
+                            class="rounded mw-100"
+                            alt=""
+                          />
                         </div>
                         <!--end:Col-->
                       </div>
@@ -900,7 +904,7 @@
                         <!--end:Col-->
                         <!--begin:Col-->
                         <div class="col-lg-7">
-                          <img src="../../public/assets/media/stock/900x600/46.jpg" class="rounded mw-100" alt="" />
+                          <img src="../../../public/assets/media/stock/900x600/46.jpg" class="rounded mw-100" alt="" />
                         </div>
                         <!--end:Col-->
                       </div>
@@ -1612,7 +1616,11 @@
                         <!--end:Col-->
                         <!--begin:Col-->
                         <div class="col-lg-5 pe-lg-5">
-                          <img src="../../public/assets/media/stock/600x600/img-84.jpg" class="rounded mw-100" alt="" />
+                          <img
+                            src="../../../public/assets/media/stock/600x600/img-84.jpg"
+                            class="rounded mw-100"
+                            alt=""
+                          />
                         </div>
                         <!--end:Col-->
                       </div>
@@ -1683,7 +1691,7 @@
                         <!--end:Col-->
                         <!--begin:Col-->
                         <div class="col-lg-8">
-                          <img src="../../public/assets/media/stock/900x600/44.jpg" class="rounded mw-100" alt="" />
+                          <img src="../../../public/assets/media/stock/900x600/44.jpg" class="rounded mw-100" alt="" />
                         </div>
                         <!--end:Col-->
                       </div>
@@ -1824,7 +1832,7 @@
                       <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                          <img src="../../public/assets/media/avatars/300-6.jpg" alt="" />
+                          <img src="../../../public/assets/media/avatars/300-6.jpg" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Title-->
@@ -1839,7 +1847,7 @@
                       <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                          <img src="../../public/assets/media/avatars/300-2.jpg" alt="" />
+                          <img src="../../../public/assets/media/avatars/300-2.jpg" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Title-->
@@ -1854,7 +1862,7 @@
                       <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                          <img src="../../public/assets/media/avatars/300-9.jpg" alt="" />
+                          <img src="../../../public/assets/media/avatars/300-9.jpg" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Title-->
@@ -1869,7 +1877,7 @@
                       <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                          <img src="../../public/assets/media/avatars/300-14.jpg" alt="" />
+                          <img src="../../../public/assets/media/avatars/300-14.jpg" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Title-->
@@ -1884,7 +1892,7 @@
                       <a href="#" class="d-flex text-gray-900 text-hover-primary align-items-center mb-5">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
-                          <img src="../../public/assets/media/avatars/300-11.jpg" alt="" />
+                          <img src="../../../public/assets/media/avatars/300-11.jpg" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Title-->
@@ -1905,7 +1913,7 @@
                           <span class="symbol-label bg-light">
                             <img
                               class="w-20px h-20px"
-                              src="../../public/assets/media/svg/brand-logos/volicity-9.svg"
+                              src="../../../public/assets/media/svg/brand-logos/volicity-9.svg"
                               alt=""
                             />
                           </span>
@@ -1926,7 +1934,7 @@
                           <span class="symbol-label bg-light">
                             <img
                               class="w-20px h-20px"
-                              src="../../public/assets/media/svg/brand-logos/tvit.svg"
+                              src="../../../public/assets/media/svg/brand-logos/tvit.svg"
                               alt=""
                             />
                           </span>
@@ -1945,7 +1953,11 @@
                         <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
                           <span class="symbol-label bg-light">
-                            <img class="w-20px h-20px" src="../../public/assets/media/svg/misc/infography.svg" alt="" />
+                            <img
+                              class="w-20px h-20px"
+                              src="../../../public/assets/media/svg/misc/infography.svg"
+                              alt=""
+                            />
                           </span>
                         </div>
                         <!--end::Symbol-->
@@ -1964,7 +1976,7 @@
                           <span class="symbol-label bg-light">
                             <img
                               class="w-20px h-20px"
-                              src="../../public/assets/media/svg/brand-logos/leaf.svg"
+                              src="../../../public/assets/media/svg/brand-logos/leaf.svg"
                               alt=""
                             />
                           </span>
@@ -1985,7 +1997,7 @@
                           <span class="symbol-label bg-light">
                             <img
                               class="w-20px h-20px"
-                              src="../../public/assets/media/svg/brand-logos/tower.svg"
+                              src="../../../public/assets/media/svg/brand-logos/tower.svg"
                               alt=""
                             />
                           </span>
@@ -2341,7 +2353,7 @@
               data-kt-menu-attach="parent"
               data-kt-menu-placement="bottom-end"
             >
-              <img src="../../public/assets/media/avatars/300-3.jpg" class="rounded-3" alt="user" />
+              <img src="../../../public/assets/media/avatars/300-3.jpg" class="rounded-3" alt="user" />
             </div>
             <!--begin::User account menu-->
             <div
@@ -2354,7 +2366,7 @@
                 <div class="menu-content d-flex align-items-center px-3">
                   <!--begin::Avatar-->
                   <div class="symbol symbol-50px me-5">
-                    <img alt="Logo" src="../../public/assets/media/avatars/300-3.jpg" />
+                    <img alt="Logo" src="../../../public/assets/media/avatars/300-3.jpg" />
                   </div>
                   <!--end::Avatar-->
                   <!--begin::Username-->
@@ -2567,7 +2579,7 @@
                       >English
                       <img
                         class="w-15px h-15px rounded-1 ms-2"
-                        src="../../public/assets/media/flags/united-states.svg"
+                        src="../../../public/assets/media/flags/united-states.svg"
                         alt="" /></span
                   ></span>
                 </a>
@@ -2577,7 +2589,11 @@
                   <div class="menu-item px-3">
                     <a href="account/settings.html" class="menu-link d-flex px-5 active">
                       <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../public/assets/media/flags/united-states.svg" alt="" /> </span
+                        <img
+                          class="rounded-1"
+                          src="../../../public/assets/media/flags/united-states.svg"
+                          alt=""
+                        /> </span
                       >English</a
                     >
                   </div>
@@ -2586,7 +2602,7 @@
                   <div class="menu-item px-3">
                     <a href="account/settings.html" class="menu-link d-flex px-5">
                       <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../public/assets/media/flags/spain.svg" alt="" /> </span
+                        <img class="rounded-1" src="../../../public/assets/media/flags/spain.svg" alt="" /> </span
                       >Spanish</a
                     >
                   </div>
@@ -2595,7 +2611,7 @@
                   <div class="menu-item px-3">
                     <a href="account/settings.html" class="menu-link d-flex px-5">
                       <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../public/assets/media/flags/germany.svg" alt="" /> </span
+                        <img class="rounded-1" src="../../../public/assets/media/flags/germany.svg" alt="" /> </span
                       >German</a
                     >
                   </div>
@@ -2604,7 +2620,7 @@
                   <div class="menu-item px-3">
                     <a href="account/settings.html" class="menu-link d-flex px-5">
                       <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../public/assets/media/flags/japan.svg" alt="" /> </span
+                        <img class="rounded-1" src="../../../public/assets/media/flags/japan.svg" alt="" /> </span
                       >Japanese</a
                     >
                   </div>
@@ -2613,7 +2629,7 @@
                   <div class="menu-item px-3">
                     <a href="account/settings.html" class="menu-link d-flex px-5">
                       <span class="symbol symbol-20px me-4">
-                        <img class="rounded-1" src="../../public/assets/media/flags/france.svg" alt="" /> </span
+                        <img class="rounded-1" src="../../../public/assets/media/flags/france.svg" alt="" /> </span
                       >French</a
                     >
                   </div>
