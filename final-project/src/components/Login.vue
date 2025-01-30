@@ -21,9 +21,9 @@
               <div class="col-md-12">
                 <a href="#" class="btn btn-google ico-left">
                   <img
-                    src="./assets/images/png_icons/google.png"
+                    src="../assets/images/png_icons/google.png"
                     alt="google-icon"
-                    onerror="this.onerror=null; this.src='./assets/images/default.png'"
+                    onerror="this.onerror=null; this.src='../assets/images/default.png'"
                   />
                   Sign in with Google
                 </a>
