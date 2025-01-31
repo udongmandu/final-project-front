@@ -14,7 +14,7 @@
             <div class="border border-dashed border-gray-300 rounded px-7 py-3 mb-6">
               <div class="d-flex flex-stack mb-3">
                 <div class="me-3">
-                  <img src="../../../public/assets/211-CNoCB7Ls.png" class="w-50px ms-n1 me-1" alt="" /><a
+                  <img src="#" class="w-50px ms-n1 me-1" alt="" /><a
                     href="apps/ecommerce/catalog/edit-product.html"
                     class="text-gray-800 text-hover-primary fw-bold"
                     >Elephant 1802</a
@@ -64,7 +64,7 @@
             <div class="border border-dashed border-gray-300 rounded px-7 py-3 mb-6">
               <div class="d-flex flex-stack mb-3">
                 <div class="me-3">
-                  <img src="../../../public/assets/215-BFinCDHh.png" class="w-50px ms-n1 me-1" alt="" /><a
+                  <img src="#" class="w-50px ms-n1 me-1" alt="" /><a
                     href="apps/ecommerce/catalog/edit-product.html"
                     class="text-gray-800 text-hover-primary fw-bold"
                     >RiseUP</a
@@ -114,7 +114,7 @@
             <div class="border border-dashed border-gray-300 rounded px-7 py-3">
               <div class="d-flex flex-stack mb-3">
                 <div class="me-3">
-                  <img src="../../../public/assets/192-ltHBxd4E.png" class="w-50px ms-n1 me-1" alt="" /><a
+                  <img src="#" class="w-50px ms-n1 me-1" alt="" /><a
                     href="apps/ecommerce/catalog/edit-product.html"
                     class="text-gray-800 text-hover-primary fw-bold"
                     >Yellow Stone</a
