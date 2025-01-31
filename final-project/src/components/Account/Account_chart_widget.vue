@@ -8,8 +8,8 @@
         <div class="card-header flex-nowrap pt-5">
           <!--begin::Title-->
           <h3 class="card-title align-items-start flex-column">
-            <span class="card-label fw-bold text-gray-900">Top Selling Categories</span>
-            <span class="text-gray-500 pt-2 fw-semibold fs-6">8k social visitors</span>
+            <span class="card-label fw-bold text-gray-900">{{ title }}</span>
+            <span class="text-gray-500 pt-2 fw-semibold fs-6">{{ subtitle }}</span>
           </h3>
           <!--end::Title-->
           <!--begin::Toolbar-->
@@ -153,7 +153,25 @@
 
 <script>
 export default {
-  name: "ChartWidget",
+  name: "Account_chart_widget",
+  props: {
+    title: {
+      type: String,
+      default: "Top Selling Categories", // 기본값
+    },
+    subtitle: {
+      type: String,
+      default: "8k social visitors", // 기본값값
+    },
+    chartData: {
+      type: Array,
+      default: () => [15, 12, 10, 8, 7, 4, 3], // 기본값
+    },
+    categories: {
+      type: Array,
+      default: () => ["Phones", "Laptops", "Headsets", "Games", "Keyboards", "Monitors", "Speakers"], // 기본값
+    },
+  },
   mounted() {
     this.initChart();
   },
@@ -172,11 +190,11 @@ export default {
         series: [
           {
             name: "Sales",
-            data: [15, 12, 10, 8, 7, 4, 3],
+            data: this.chartData, // props로 받은 데이터 사용
           },
         ],
         xaxis: {
-          categories: ["Phones", "Laptops", "Headsets", "Games", "Keyboards", "Monitors", "Speakers"],
+          categories: this.categories, // props로 받은 데이터 사용
         },
         tooltip: {
           enabled: true,
@@ -190,7 +208,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* 필요한 스타일 추가 */
-</style>

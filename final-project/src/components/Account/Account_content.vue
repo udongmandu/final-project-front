@@ -4,7 +4,12 @@
       <!-- 여기부터 -->
       <Account_overview />
       <Account_profile_detail />
-      <Account_category />
+      <Account_chart_widget
+        title="Custom Title"
+        subtitle="Custom Subtitle"
+        :chartData="[20, 18, 15, 12, 10, 8, 5]"
+        :categories="['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5', 'Category 6', 'Category 7']"
+      />
       <Account_items />
       <!-- 여기까지 -->
     </div>
@@ -14,8 +19,9 @@
 <script>
 import Account_overview from "./Account_overview.vue";
 import Account_profile_detail from "./Account_profile_detail.vue";
-import Account_category from "./Account_category.vue";
+import Account_category from "./Account_chart_widget.vue";
 import Account_items from "./Account_items.vue";
+import Account_chart_widget from "./Account_chart_widget.vue";
 
 export default {
   name: "Account_Content",
@@ -24,6 +30,7 @@ export default {
     Account_profile_detail,
     Account_category,
     Account_items,
+    Account_chart_widget,
   },
 };
 </script>
