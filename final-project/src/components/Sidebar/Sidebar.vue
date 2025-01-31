@@ -9,32 +9,25 @@
     data-kt-drawer-width="225px"
     data-kt-drawer-direction="start"
     data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle"
+    style=""
   >
     <!--begin::Logo-->
     <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
       <!--begin::Logo image-->
       <a href="index.html">
-        <img
-          alt="Logo"
-          src="../../../public/assets/media/logos/default-dark.svg"
-          class="h-25px app-sidebar-logo-default"
-        />
-        <img
-          alt="Logo"
-          src="../../../public/assets/media/logos/default-small.svg"
-          class="h-20px app-sidebar-logo-minimize"
-        />
+        <img alt="Logo" src="../../../public/assets/media/logos/default-dark.svg" class="h-25px app-sidebar-logo-default" />
+        <img alt="Logo" src="../../../public/assets/media/logos/default-small.svg" class="h-20px app-sidebar-logo-minimize" />
       </a>
       <!--end::Logo image-->
       <!--begin::Sidebar toggle-->
       <!--begin::Minimized sidebar setup:
-if (isset($_COOKIE["sidebar_minimize_state"]) && $_COOKIE["sidebar_minimize_state"] === "on") { 
-1. "src/js/layout/sidebar.js" adds "sidebar_minimize_state" cookie value to save the sidebar minimize state.
-2. Set data-kt-app-sidebar-minimize="on" attribute for body tag.
-3. Set data-kt-toggle-state="active" attribute to the toggle element with "kt_app_sidebar_toggle" id.
-4. Add "active" class to to sidebar toggle element with "kt_app_sidebar_toggle" id.
-}
--->
+            if (isset($_COOKIE["sidebar_minimize_state"]) && $_COOKIE["sidebar_minimize_state"] === "on") { 
+                1. "src/js/layout/sidebar.js" adds "sidebar_minimize_state" cookie value to save the sidebar minimize state.
+                2. Set data-kt-app-sidebar-minimize="on" attribute for body tag.
+                3. Set data-kt-toggle-state="active" attribute to the toggle element with "kt_app_sidebar_toggle" id.
+                4. Add "active" class to to sidebar toggle element with "kt_app_sidebar_toggle" id.
+            }
+        -->
       <div
         id="kt_app_sidebar_toggle"
         class="app-sidebar-toggle btn btn-icon btn-shadow btn-sm btn-color-muted btn-active-color-primary h-30px w-30px position-absolute top-50 start-100 translate-middle rotate"
@@ -66,7 +59,7 @@ if (isset($_COOKIE["sidebar_minimize_state"]) && $_COOKIE["sidebar_minimize_stat
           data-kt-scroll-wrappers="#kt_app_sidebar_menu"
           data-kt-scroll-offset="5px"
           data-kt-scroll-save-state="true"
-          style="height: 787px"
+          style="height: 754px"
         >
           <!--begin::Menu-->
           <div
@@ -92,7 +85,7 @@ if (isset($_COOKIE["sidebar_minimize_state"]) && $_COOKIE["sidebar_minimize_stat
               </span>
               <!--end:Menu link-->
               <!--begin:Menu sub-->
-              <div class="menu-sub menu-sub-accordion" kt-hidden-height="255" style="display: none; overflow: hidden">
+              <div class="menu-sub menu-sub-accordion">
                 <!--begin:Menu item-->
                 <div class="menu-item">
                   <!--begin:Menu link-->
@@ -361,7 +354,7 @@ if (isset($_COOKIE["sidebar_minimize_state"]) && $_COOKIE["sidebar_minimize_stat
               </span>
               <!--end:Menu link-->
               <!--begin:Menu sub-->
-              <div class="menu-sub menu-sub-accordion" kt-hidden-height="250" style="display: none; overflow: hidden">
+              <div class="menu-sub menu-sub-accordion">
                 <!--begin:Menu item-->
                 <div class="menu-item">
                   <!--begin:Menu link-->
@@ -438,161 +431,34 @@ if (isset($_COOKIE["sidebar_minimize_state"]) && $_COOKIE["sidebar_minimize_stat
               <!--end:Menu sub-->
             </div>
             <!--end:Menu item-->
-            <!--begin:Menu item-->
 
             <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-            <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-              <!--begin:Menu link-->
-              <span class="menu-link">
-                <span class="menu-icon">
-                  <i class="ki-duotone ki-element-7 fs-2">
-                    <span class="path1"></span>
-                    <span class="path2"></span>
-                  </i>
-                </span>
-                <span class="menu-title">Widgets</span>
-                <span class="menu-arrow"></span>
-              </span>
-              <!--end:Menu link-->
-              <!--begin:Menu sub-->
-              <div class="menu-sub menu-sub-accordion" kt-hidden-height="250" style="display: none; overflow: hidden">
-                <!--begin:Menu item-->
-                <div class="menu-item">
-                  <!--begin:Menu link-->
-                  <a class="menu-link" href="widgets/lists.html">
-                    <span class="menu-bullet">
-                      <span class="bullet bullet-dot"></span>
-                    </span>
-                    <span class="menu-title">Lists</span>
-                  </a>
-                  <!--end:Menu link-->
-                </div>
-                <!--end:Menu item-->
-                <!--begin:Menu item-->
-                <div class="menu-item">
-                  <!--begin:Menu link-->
-                  <a class="menu-link" href="widgets/statistics.html">
-                    <span class="menu-bullet">
-                      <span class="bullet bullet-dot"></span>
-                    </span>
-                    <span class="menu-title">Statistics</span>
-                  </a>
-                  <!--end:Menu link-->
-                </div>
-                <!--end:Menu item-->
-                <!--begin:Menu item-->
-                <div class="menu-item">
-                  <!--begin:Menu link-->
-                  <a class="menu-link" href="widgets/charts.html">
-                    <span class="menu-bullet">
-                      <span class="bullet bullet-dot"></span>
-                    </span>
-                    <span class="menu-title">Charts</span>
-                  </a>
-                  <!--end:Menu link-->
-                </div>
-                <!--end:Menu item-->
-                <!--begin:Menu item-->
-                <div class="menu-item">
-                  <!--begin:Menu link-->
-                  <a class="menu-link" href="widgets/mixed.html">
-                    <span class="menu-bullet">
-                      <span class="bullet bullet-dot"></span>
-                    </span>
-                    <span class="menu-title">Mixed</span>
-                  </a>
-                  <!--end:Menu link-->
-                </div>
-                <!--end:Menu item-->
-                <!--begin:Menu item-->
-                <div class="menu-item">
-                  <!--begin:Menu link-->
-                  <a class="menu-link" href="widgets/tables.html">
-                    <span class="menu-bullet">
-                      <span class="bullet bullet-dot"></span>
-                    </span>
-                    <span class="menu-title">Tables</span>
-                  </a>
-                  <!--end:Menu link-->
-                </div>
-                <!--end:Menu item-->
-                <!--begin:Menu item-->
-                <div class="menu-item">
-                  <!--begin:Menu link-->
-                  <a class="menu-link" href="widgets/feeds.html">
-                    <span class="menu-bullet">
-                      <span class="bullet bullet-dot"></span>
-                    </span>
-                    <span class="menu-title">Feeds</span>
-                  </a>
-                  <!--end:Menu link-->
-                </div>
-                <!--end:Menu item-->
-              </div>
-              <!--end:Menu sub-->
-            </div>
-            <!--end:Menu item-->
-
             <!--begin:Menu item-->
             <div class="menu-item pt-5">
               <!--begin:Menu content-->
               <div class="menu-content">
-                <span class="menu-heading fw-bold text-uppercase fs-7">Help</span>
+                <span class="menu-heading fw-bold text-uppercase fs-7">Layouts</span>
               </div>
               <!--end:Menu content-->
             </div>
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
 
-            <!--end:Menu item-->
-            <!--begin:Menu item-->
-
-            <!--end:Menu item-->
             <!--begin:Menu item-->
             <div class="menu-item">
               <!--begin:Menu link-->
-              <a
-                class="menu-link"
-                href="https://preview.keenthemes.com/html/metronic/docs/getting-started/changelog"
-                target="_blank"
-              >
+              <a class="menu-link" href="https://preview.keenthemes.com/metronic8/demo1/layout-builder.html">
                 <span class="menu-icon">
-                  <i class="ki-duotone ki-code fs-2">
+                  <i class="ki-duotone ki-abstract-13 fs-2">
                     <span class="path1"></span>
                     <span class="path2"></span>
-                    <span class="path3"></span>
-                    <span class="path4"></span>
                   </i>
                 </span>
-                <span class="menu-title">Changelog v8.2.3</span>
+                <span class="menu-title">Layout Builder</span>
               </a>
               <!--end:Menu link-->
             </div>
+            <!--end:Menu item-->
+            <!--begin:Menu item-->
+
             <!--end:Menu item-->
           </div>
           <!--end::Menu-->

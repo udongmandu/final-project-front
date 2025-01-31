@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <Header />
-    <div class="app-wrapper">
-      <Sidebar />
-      <div class="content">
+    <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
+      <Header />
+      <div class="app-main flex-column flex-row-fluid" id="kt_app_wrapper">
+        <Sidebar />
         <router-view />
       </div>
     </div>
@@ -21,24 +21,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-#app {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.app-wrapper {
-  display: flex;
-  flex: 1;
-  height: calc(100vh - 60px); /* Header 제외한 높이 */
-  overflow: hidden;
-}
-
-.content {
-  flex: 1;
-  overflow-y: auto; /* router-view만 스크롤 가능 */
-  padding: 20px;
-}
-</style>
