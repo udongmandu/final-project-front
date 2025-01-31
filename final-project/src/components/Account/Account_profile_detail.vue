@@ -5,54 +5,76 @@
       <a href="account/settings.html" class="btn btn-sm btn-primary align-self-center">Edit Profile</a>
     </div>
     <div class="card-body p-9">
+      <!-- Full Name -->
       <div class="row mb-7">
         <label class="col-lg-4 fw-semibold text-muted">Full Name</label>
-        <div class="col-lg-8"><span class="fw-bold fs-6 text-gray-800">Max Smith</span></div>
-      </div>
-      <div class="row mb-7">
-        <label class="col-lg-4 fw-semibold text-muted">Company</label>
-        <div class="col-lg-8 fv-row"><span class="fw-semibold text-gray-800 fs-6">Keenthemes</span></div>
-      </div>
-      <div class="row mb-7">
-        <label class="col-lg-4 fw-semibold text-muted"
-          >Contact Phone
-          <span
-            class="ms-1"
-            data-bs-toggle="tooltip"
-            aria-label="Phone number must be active"
-            data-bs-original-title="Phone number must be active"
-            data-kt-initialized="1"
-            ><i class="ki-duotone ki-information fs-7"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span
-        ></label>
-        <div class="col-lg-8 d-flex align-items-center">
-          <span class="fw-bold fs-6 text-gray-800 me-2">044 3276 454 935</span><span class="badge badge-success">Verified</span>
+        <div class="col-lg-8">
+          <span class="fw-bold fs-6 text-gray-800">{{ userData.name }}</span>
         </div>
       </div>
+
+      <!-- ID -->
       <div class="row mb-7">
-        <label class="col-lg-4 fw-semibold text-muted">Company Site</label>
-        <div class="col-lg-8"><a href="#" class="fw-semibold fs-6 text-gray-800 text-hover-primary">keenthemes.com</a></div>
+        <label class="col-lg-4 fw-semibold text-muted">User ID</label>
+        <div class="col-lg-8">
+          <span class="fw-semibold text-gray-800 fs-6">{{ userData.id }}</span>
+        </div>
       </div>
+
+      <!-- Contact Phone -->
       <div class="row mb-7">
-        <label class="col-lg-4 fw-semibold text-muted"
-          >Country
-          <span
-            class="ms-1"
-            data-bs-toggle="tooltip"
-            aria-label="Country of origination"
-            data-bs-original-title="Country of origination"
-            data-kt-initialized="1"
-            ><i class="ki-duotone ki-information fs-7"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i></span
-        ></label>
-        <div class="col-lg-8"><span class="fw-bold fs-6 text-gray-800">Germany</span></div>
+        <label class="col-lg-4 fw-semibold text-muted">Contact Phone</label>
+        <div class="col-lg-8 d-flex align-items-center">
+          <span class="fw-bold fs-6 text-gray-800 me-2">{{ userData.phone }}</span>
+          <span class="badge badge-success">Verified</span>
+        </div>
       </div>
+
+      <!-- Email -->
       <div class="row mb-7">
-        <label class="col-lg-4 fw-semibold text-muted">Communication</label>
-        <div class="col-lg-8"><span class="fw-bold fs-6 text-gray-800">Email, Phone</span></div>
+        <label class="col-lg-4 fw-semibold text-muted">Email</label>
+        <div class="col-lg-8">
+          <span class="fw-semibold fs-6 text-gray-800">{{ userData.email }}</span>
+        </div>
       </div>
-      <div class="row mb-10">
-        <label class="col-lg-4 fw-semibold text-muted">Allow Changes</label>
-        <div class="col-lg-8"><span class="fw-semibold fs-6 text-gray-800">Yes</span></div>
+
+      <!-- Car -->
+      <div class="row mb-7">
+        <label class="col-lg-4 fw-semibold text-muted">Car Model</label>
+        <div class="col-lg-8">
+          <span class="fw-bold fs-6 text-gray-800">{{ userData.car }}</span>
+        </div>
+      </div>
+
+      <!-- Role -->
+      <div class="row mb-7">
+        <label class="col-lg-4 fw-semibold text-muted">Role</label>
+        <div class="col-lg-8">
+          <span class="fw-bold fs-6 text-gray-800">{{ userData.role }}</span>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Account_profile_detail",
+  props: {
+    userData: {
+      type: Object,
+      required: true,
+      default: () => ({
+        user_id: 1,
+        id: "user123",
+        password: "password123",
+        car: "Tesla Model S",
+        email: "user@example.com",
+        phone: "123-456-7890",
+        name: "고범준",
+        role: "default_user",
+      }),
+    },
+  },
+};
+</script>

@@ -2,8 +2,29 @@
   <div id="kt_app_content" class="app-content flex-column-fluid">
     <div id="kt_app_content_container" class="app-container container-xxl">
       <!-- 여기부터 -->
-      <Account_overview />
-      <Account_profile_detail />
+      <Account_overview
+        :userData="{
+          password: 'password123',
+          car: 'Tesla Model S',
+          email: 'kbj@example.com',
+          phone: '123-456-7890',
+          name: '고범준',
+          role: 'Developer',
+          profileImage: './../../public/assets/media/avatars/300-1.jpg',
+        }"
+      />
+      <Account_profile_detail
+        :userData="{
+          user_id: 1,
+          id: 'user123',
+          password: 'password123',
+          car: 'Tesla Model S',
+          email: 'user@example.com',
+          phone: '123-456-7890',
+          name: '고범준',
+          role: 'default_user',
+        }"
+      />
       <Account_chart_widget
         title="Custom Title"
         subtitle="Custom Subtitle"
